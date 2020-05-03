@@ -13,6 +13,10 @@ const test = false;
 
 // JavaScript function that wraps everything
 $(document).ready(function() {
+
+  $("#today").html(dayTitle);
+  $("#day").html(dayName);
+  //$(".hour").html(hour24);
   
 //change colors!
  var currenthours = moment().hour(); //golden
@@ -22,9 +26,7 @@ $(document).ready(function() {
     .get()
     .join(",");
     let $arr = mappedItems;//get tr elements in an array 
-  })
    
-function colors() {
     $($arr).each(function(i) {
       if (i > currenthours) {
         $("tr.color").style.color="gray"; //future
@@ -33,14 +35,8 @@ function colors() {
     }
       else {
         $("tr.color").style.color="white";//now
-      }
+    }
     });
-    colors();
-
-       $("#today").html(dayTitle);
-       $("#day").html(dayName);
-       $(".hour").html(hour24);
-
          //get inputs from local storage
     var stuff = $("tr").text();
          //set info in local storage
@@ -52,7 +48,7 @@ function colors() {
         var texts = $(this).text();
 
         //overwite old text
-    localStorage.setItem('dayStuff', newText);
+    localStorage.setItem('dayStuff', texts);
 
     //test if it works
     alert(localStorage.getItem('dayStuff'));
@@ -67,7 +63,6 @@ function colors() {
 
         //API for FUNZIES!
         $("#get1").on("click", function(event) {
-
           event.preventDefault();
 
           var settings = {
@@ -86,7 +81,5 @@ function colors() {
             $(".note").text(JSON.stringify(response.content));
             $(".author").text(JSON.stringify("--" + response.originator.name));
           })
-
-        });
-    
-      }
+        })
+     })

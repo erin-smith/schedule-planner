@@ -23,17 +23,17 @@ textarea{
 .lead{
   font-size: 32px;
 }
-.description{
+.description {
   white-space: pre-wrap;
 }
-#day{
+#day {
   font-size: 20px;
   font-weight: bolder;
 }
-button #get1{
-  align-content: right;
+#get1 {
+  position: relative;
 }
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
