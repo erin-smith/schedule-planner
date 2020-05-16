@@ -14,15 +14,14 @@
     <link rel="stylesheet" href="style.css"/>
     <title>Work Day Scheduler</title>
   </head>
-
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <h2 id="today" class="lead"></h2>
     </header>
     <div class="container">
-       <h3 class="note"></h3>
-        <p class="author"></p>
+      <div id=quothy><h3 class="note"></h3>
+        <p class="author"></p></div>
           <button class= "btn btn-dark Quote" id="get1">New Quote!</button>
         <table class="table" id="todayInfo">
           <thead>
@@ -36,82 +35,84 @@
             </tr>
           </thead>
           <tbody>
-            <tr class="color">
+            <tr id="8" class="color">
               <td id="day"></td>
-              <td id="8" class="hours">8AM</td>
+              <td class="hours">8AM</td>
               <td><textarea id="event" type="input" class="info">type here...</textarea></td>
-              <td><button id="save" class="btn btn-info save">Save Event</button></td>
-              <td><button class="btn btn-secondary clear" value="clear">Cancel</button></td>
+              <td><button class="btn btn-info save">Save Event</button></td>
+              <td><button class="btn btn-secondary clear">Cancel</button></td>
             </tr>
-            <tr class="color">
+            <tr id="9"  class="color">
               <td></td>
-              <td id="9" class="hours">9AM</td>
+              <td class="hours">9AM</td>
               <td><textarea id="event" type="input" class="info"></textarea></td>
-              <td><button id="save" class="btn btn-info save">Save Event</button></td>
-              <td><button class="btn btn-secondary clear" value="clear">Cancel</button></td>
+              <td><button class="btn btn-info save">Save Event</button></td>
+              <td><button class="btn btn-secondary clear">Cancel</button></td>
             </tr>
-            <tr class="color">
+            <tr id="10" class="color">
               <td></td>
-              <td id="10" class="hours">10AM</td>
+              <td class="hours">10AM</td>
+              <td>
+                <textarea id="event" type="input" class="info"></textarea>
+              </td>
+              <td><button class="btn btn-info save">Save Event</button></td>
+              <td><button class="btn btn-secondary clear">Cancel</button></td>
+            </tr>
+            <tr id="11" class="color">
+              <td></td>
+              <td class="hours">11AM</td>
               <td><textarea id="event" type="input" class="info"></textarea></td>
-              <td><button id="save" class="btn btn-info save">Save Event</button></td>
-              <td><button class="btn btn-secondary clear" value="clear">Cancel</button></td>
+              <td><button class="btn btn-info save">Save Event</button></td>
+              <td><button class="btn btn-secondary clear">Cancel</button></td>
             </tr>
-            <tr class="color">
+            <tr id="12" class="color">
               <td></td>
-              <td id="11" class="hours">11AM</td>
+              <td class="hours">12PM</td>
               <td><textarea id="event" type="input" class="info"></textarea></td>
-              <td><button id="save" class="btn btn-info save">Save Event</button></td>
-              <td><button class="btn btn-secondary clear" value="clear">Cancel</button></td>
+              <td><button class="btn btn-info save">Save Event</button></td>
+              <td><button class="btn btn-secondary clear">Cancel</button></td>
             </tr>
-            <tr class="color">
+            <tr id="13" class="color">
               <td></td>
-              <td id="12" class="hours">12PM</td>
+              <td class="hours">1PM</td>
               <td><textarea id="event" type="input" class="info"></textarea></td>
-              <td><button id="save" class="btn btn-info save">Save Event</button></td>
-              <td><button class="btn btn-secondary clear" value="clear">Cancel</button></td>
+              <td><button class="btn btn-info save">Save Event</button></td>
+              <td><button class="btn btn-secondary clear">Cancel</button></td>
             </tr>
-            <tr class="color">
+            <tr id="14" class="color">
               <td></td>
-              <td id="13" class="hours">1PM</td>
+              <td class="hours">2PM</td>
               <td><textarea id="event" type="input" class="info"></textarea></td>
-              <td><button id="save" class="btn btn-info save">Save Event</button></td>
-              <td><button class="btn btn-secondary clear" value="clear">Cancel</button></td>
+              <td><button class="btn btn-info save">Save Event</button></td>
+              <td><button class="btn btn-secondary clear">Cancel</button></td>
             </tr>
-            <tr class="color">
+            <tr id="15" class="color">
               <td></td>
-              <td id="14" class="hours">2PM</td>
+              <td class="hours">3PM</td>
               <td><textarea id="event" type="input" class="info"></textarea></td>
-              <td><button id="save" class="btn btn-info save">Save Event</button></td>
-              <td><button class="btn btn-secondary clear" value="clear">Cancel</button></td>
+              <td><button  class="btn btn-info save">Save Event</button></td>
+              <td><button class="btn btn-secondary clear">Cancel</button></td>
             </tr>
-            <tr class="color">
+            <tr id="16" class="color">
               <td></td>
-              <td id="15" class="hours">3PM</td>
+              <td class="hours">4PM</td>
               <td><textarea id="event" type="input" class="info"></textarea></td>
-              <td><button id="save" class="btn btn-info save">Save Event</button></td>
-              <td><button class="btn btn-secondary clear" value="clear">Cancel</button></td>
+              <td><button class="btn btn-info save">Save Event</button></td>
+              <td><button class="btn btn-secondary clear">Cancel</button></td>
             </tr>
-            <tr class="color">
+            <tr id="17" class="color">
               <td></td>
-              <td id="16" class="hours">4PM</td>
+              <td class="hours">5PM</td>
               <td><textarea id="event" type="input" class="info"></textarea></td>
-              <td><button id="save" class="btn btn-info save">Save Event</button></td>
-              <td><button class="btn btn-secondary clear" value="clear">Cancel</button></td>
+              <td><button class="btn btn-info save">Save Event</button></td>
+              <td><button class="btn btn-secondary clear">Cancel</button></td>
             </tr>
-            <tr class="color">
+            <tr id="18" class="color">
               <td></td>
-              <td id="17" class="hours">5PM</td>
-              <td><textarea id="event" type="input" class="info"></textarea></td>
-              <td><button id="save" class="btn btn-info save">Save Event</button></td>
-              <td><button class="btn btn-secondary clear" value="clear">Cancel</button></td>
-            </tr>
-            <tr class="color">
-              <td></td>
-              <td id="18" class="hours">6PM</td>
+              <td class="hours">6PM</td>
               <td><textarea id="event" type="input" class="info">Dinner Plans?</textarea></td>
-              <td><button id="save" class="btn btn-info save">Save Event</button></td>
-              <td><button class="btn btn-secondary clear" value="clear">Cancel</button></td>
+              <td><button class="btn btn-info save">Save Event</button></td>
+              <td><button class="btn btn-secondary clear">Cancel</button></td>
             </tr>
           </tbody>
         </table>
