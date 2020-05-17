@@ -52,7 +52,7 @@ textarea{
 
 .past {
   background-color:lightblue;
-  color: gray;
+  color:black;
 }
 
 .now {
@@ -61,7 +61,7 @@ textarea{
 }
 
 .future {
-  background-color:lightgray;
+  background-color:rgb(187, 238, 187);
   color: black;
 }
 
