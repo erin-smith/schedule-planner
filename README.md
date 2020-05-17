@@ -8,5 +8,5 @@ The calendar displays the current time, there are timeblocks for standards busin
 
 Enjoy!
 
-![alt text](https://github.com/reptile18/Work-Day-Scheduler/blob/master/Assets/schedule.png?raw=true "work day scheduler")
+![alt text](Screen_Shot_.png) "Work Day Scheduler")
 
