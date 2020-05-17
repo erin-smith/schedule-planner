@@ -8,5 +8,5 @@ The calendar displays the current time, there are timeblocks for standards busin
 
 Enjoy!
 
-![alt text](Screen_Shot_.png) "Work Day Scheduler")
+![Schedule Planner](Screen_Shot_.png)
 
