@@ -8,5 +8,5 @@ The calendar displays the current time, there are timeblocks for standards busin
 
 Enjoy!
 
-![Schedule Planner](Screen_Shot_.png)
+![Schedule Planner](Screen_Shot.png)
 
