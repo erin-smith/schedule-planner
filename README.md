@@ -6,7 +6,7 @@ The project utilizes html, css, jQuery, AJAX/JSON, Web APIs: Quotes, moment.js, 
 
 The calendar displays the current time, there are timeblocks for standards business hours. Each timeblock is color coded to indicate whether it is in the past, present, or future. You can enter an event, meeting, or reminder in each table row and save it on the browser and to local storage. The event remains on the page when you refresh- and in local storage.  If you wish to cancel an event, you can click the cancel button and clear the event from the text area and from local storage.
 
-Enjoy!
+Enjoy!   https://erin-smith.github.io/schedule-planner/
 
 ![Schedule Planner](Screen_Shot.png)
 
