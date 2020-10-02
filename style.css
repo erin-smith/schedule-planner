@@ -12,10 +12,15 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
+#sun { 
+  margin-left: 30px;
+  height: 80px;
+  width: 80px;
+}
 
 .jumbotron {
   text-align: center;
-  background-color: darkgrey;
+  background-color: #f7c331;
   color: black;
   border-radius: 0;
   border-bottom: 5px solid black;
