@@ -4,7 +4,7 @@
   "description": "Schedule Planner",
   "main": "jquery.js",
   "dependencies": {
-    "eslint": "^7.10.0"
+    "eslint": "^9.39.1"
   },
   "devDependencies": {},
   "scripts": {
